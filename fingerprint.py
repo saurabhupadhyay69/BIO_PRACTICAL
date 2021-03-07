@@ -25,3 +25,27 @@ seq_list=[]
 for _ in range(no_of_seq):
     seq_list.append(list(map(str, input("").split())))
 solve_fingerprint(seq_list, len(seq_list[0]))
+
+
+output:
+>
+Enter the number of sequence: 3
+Enter all the sequences
+A C T G A T G 
+A T C A G A A
+A T A A G C A
+	A 	C 	T 	G
+
+	3	0	0	0
+
+	0	1	2	0
+
+	1	1	1	0
+
+	2	0	0	1
+
+	1	0	0	2
+
+	1	1	1	0
+
+	2	0	0	1
