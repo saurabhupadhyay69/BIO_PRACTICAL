@@ -27,3 +27,20 @@ def compare(o,t,s):
     return similarity
 
 print(compare(list(sequence_one),list(sequence_two),similarities),"%") 
+
+
+output:
+>
+Enter the first sequence: AGCTGAT
+Enter the second sequence:  :TGCATGT
+How many elements for similarity condition?2
+Enter an element: A
+How many elements is it similar to? 1
+What is it similar to? T
+Enter an element: C
+How many elements is it similar to? 1
+What is it similar to? G
+['A', 'G', 'C', 'T', 'G', 'A', 'T']
+[' ', ':', 'T', 'G', 'C', 'A', 'T', 'G', 'T']
+[['A', 'T'], ['C', 'G']]
+14.285714285714286 %
