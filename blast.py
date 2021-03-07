@@ -18,3 +18,11 @@ print("score of A is", score_A)
 print("score of C is", score_C)
 print("score of T is", score_T)
 print("score of G is", score_G) 
+
+
+output:
+>
+score of A is 416
+score of C is 203
+score of T is 407
+score of G is 140
