@@ -23,3 +23,14 @@ seq_list=[]
 for _ in range(no_of_seq):
     seq_list.append(list(map(str, input("").split())))
 gen_reg_exp(seq_list, len(seq_list[0]))
+
+
+
+output:
+>
+Enter the number of sequence: 3
+Enter all the sequences
+A C T G C T G A
+A C T C A T G A
+C T G G Y A T C
+{'C', 'A'}-{'C', 'T'}-{'T', 'G'}-{'C', 'G'}-x-{'T', 'A'}-{'T', 'G'}-{'C', 'A'}
