@@ -33,6 +33,7 @@ Pairwise_alignment(seq1,seq2)
 
 
 output:
+>
 Enter the first sequence::ATGCGCT
 Enter the second sequence::TCGAGCA
 
@@ -40,3 +41,12 @@ Enter the second sequence::TCGAGCA
 ['T', 'C', 'G', 'A', 'G', 'C', 'A']
 ['0', '0', '1', '0', '1', '1', '0']
 3
+
+>
+Enter the first sequence::ACTGACGTA
+Enter the second sequence::CGATGCAA
+Enter the position to insert::3
+['A', 'C', 'T', 'G', 'A', 'C', 'G', 'T', 'A']
+['C', 'G', 'A', '-', 'T', 'G', 'C', 'A', 'A']
+['0', '0', '0', '0', '0', '0', '0', '0', '1']
+1
