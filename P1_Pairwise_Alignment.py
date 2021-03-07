@@ -30,3 +30,13 @@ def gap(a,b):
     return(a,b)
 
 Pairwise_alignment(seq1,seq2)
+
+
+output:
+Enter the first sequence::ATGCGCT
+Enter the second sequence::TCGAGCA
+
+['A', 'T', 'G', 'C', 'G', 'C', 'T']
+['T', 'C', 'G', 'A', 'G', 'C', 'A']
+['0', '0', '1', '0', '1', '1', '0']
+3
